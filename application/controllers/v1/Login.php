@@ -18,7 +18,7 @@
         function __construct($config = 'rest') {
             parent::__construct($config);
         }
-
+ 
         function configToken(){
             $cnf['exp'] = 3600; //milisecond
             $cnf['secretkey'] = '2212336221';
